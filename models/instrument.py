@@ -4,7 +4,7 @@ class Instrument:
         self.name=name
         self.displayName=displayName
         self.ins_type=ins_type
-        self.pipLocation=power(10, pipLocation)
+        self.pipLocation=pow(10, pipLocation)
         self.tradeUnitsPrecision=tradeUnitsPrecision
         self.marginRate=float(marginRate)
 
