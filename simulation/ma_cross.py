@@ -91,6 +91,7 @@ def analyse_pair(instrument, granularity, ma_long, ma_short):
 
             print(ma_result)
             results_list.appen(ma_result)
+    #got to this point. Lesson 54 completed 
     #create _df        
 
 def run_ma_sim(curr_list=["EUR","USD"],
