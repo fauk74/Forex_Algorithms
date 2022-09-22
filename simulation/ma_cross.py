@@ -137,8 +137,8 @@ def analyse_pair(instrument, granularity, ma_long, ma_short, filepath):
 
 def run_ma_sim(curr_list=["EUR","USD"],  #ok
                 granularity=["H1", "H4"],
-                ma_long=[20,40,80],
-                ma_short=[10,20],
+                ma_long=[20,40,80, 100, 120, 200],
+                ma_short=[10,20, 40],
                filepath="./data"):
 
     ic.LoadInstruments("./data")

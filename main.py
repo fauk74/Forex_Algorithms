@@ -16,4 +16,4 @@ if __name__=='__main__':
     #InstrumentCollection.LoadInstruments("./data")
     #InstrumentCollection.PrintInstruments()
 
-run_ma_sim(curr_list=["EUR","USD"])
+run_ma_sim(curr_list=["EUR","USD", "JPY", "AUD" , "CAD" , "GBP"])
